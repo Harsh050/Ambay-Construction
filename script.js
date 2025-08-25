@@ -96,7 +96,7 @@ This inquiry was sent from Ambay Construction website.
         `.trim();
         
         // Create mailto link
-        const mailtoLink = `mailto:prajwalsrivastava@ambaycontruction.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:ambayconstructioncompany@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         // Open email client
         window.location.href = mailtoLink;
